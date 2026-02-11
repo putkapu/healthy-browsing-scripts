@@ -2,20 +2,20 @@
 
 Small Tampermonkey scripts to make browsing more intentional, healthy and wholesome.
 
-Currently included:
-- `x-following-only.user.js`: forces the X (Twitter) Home feed to:
+Currently included (in `scripts/`):
+- `scripts/x-following-only.user.js`: forces the X (Twitter) Home feed to:
   - show **Following** only
   - use **Recent** (chronological, `?f=live`)
   - hide "For you" and the tab header UI
-- `block-sites.js`: hard-blocks a set of distracting news / video / social sites right at `document-start`, replacing them with a simple **"Pause. Will this move you forward?"** page and a **Return** button
-- `friction-timer.js`: adds a **10‑minute delay** before allowing access to selected AI/chat sites (ChatGPT, Claude, Grok, Gemini etc.), then lets you through for a limited time after a deliberate decision
+- `scripts/block-sites.js`: hard-blocks a set of distracting news / video / social sites right at `document-start`, replacing them with a simple **"Pause. Will this move you forward?"** page and a **Return** button
+- `scripts/friction-timer.js`: adds a **10‑minute delay** before allowing access to selected AI/chat sites (ChatGPT, Claude, Grok, Gemini etc.), then lets you through for a limited time after a deliberate decision
 
 ## Install (general)
 1. Install Tampermonkey (Chrome)
 2. Open the script file you want in your browser:
-   - `x-following-only.user.js`
-   - `block-sites.js`
-   - `friction-timer.js`
+   - `scripts/x-following-only.user.js`
+   - `scripts/block-sites.js`
+   - `scripts/friction-timer.js`
 3. Tampermonkey will prompt you to install it
 
 ## Script details
